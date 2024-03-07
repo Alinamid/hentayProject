@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the latest batch of Hentai Hot Sauce with our tracker. Pre-order now to get your hands on the spiciest sauce inspired by your favorite Hentai.">
+  <title>Hentai Hot Sauce Tracker Desktop</title>
+  <link rel="stylesheet" href="styles.min.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navtab"></div>
+        <div class="header-img-container">
+            <img src="images/header-img_jpg/header-img.jpg"
+                srcset="images/header-img_png/header-img.png 1x,
+                        images/header-img_png/header-img@2x.png 2x,
+                        images/header-img_png/header-img@3x.png 3x,
+                        images/header-img_jpg/header-img.jpg 1x,
+                        images/header-img_jpg/header-img@2x.jpg 2x,
+                        images/header-img_jpg/header-img@3x.jpg 3x"
+                alt="Header Image" class="header-img">
+            <div class="header-text">
+                <span class="THE-SPICY-AS-FUCK">THE SPICY AS FUCK</span>
+                <span class="HENTAI-HOT-SAUCE">HENTAI HOT SAUCE</span>
+                <div class="button-container">
+                    <img src="images/buttom.svg" onerror="this.src='images/button/button.png'"
+                        srcset="images/button/button.png 1x,
+                                images/button/button@2x.png 2x,
+                                images/button/button@3x.png 3x"
+                        class="buttom">
+                    <span class="button-text PRE-ORDER">PRE-ORDER</span>
+                </div> 
+            </div>
+        </div>
+    </header>
+      
+  <main>
+    <div class="Hot-Sauce-Tracker">
+        <!-- modal for the pre-order -->
+        <div id="preOrderModal" class="modal">
+            <div class="modal-content">
+              <span class="close-button">×</span>
+              <h2>Pre-Order Form</h2>
+              <form id="preOrderForm">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        <!-- extra modal added by me to implement autoupdate -->
+          <div id="autoupdateModal" class="modal">
+            <div class="modal-content">
+              <span class="close-button">×</span>
+              <p>Do you want to autoupdate?</p>
+              <button id="yesButton">Yes</button>
+              <button id="noButton">No</button>
+            </div>
+          </div>
+        <!-- content of the page -->
+        <div class="content-container">
+            <div class="left-section">
+                <img src="images/retouch-bottle-lineup-jpg/retouch-bottle-lineup.jpg"
+                    srcset="images/retouch-bottle-lineup-png/retouch-bottle-lineup.png 1x,
+                            images/retouch-bottle-lineup-png/retouch-bottle-lineup@2x.png 2x,
+                            images/retouch-bottle-lineup-png/retouch-bottle-lineup@3x.png 3x,
+                            images/retouch-bottle-lineup-jpg/retouch-bottle-lineup.jpg 1x,
+                            images/retouch-bottle-lineup-jpg/retouch-bottle-lineup@2x.jpg 2x,
+                            images/retouch-bottle-lineup-jpg/retouch-bottle-lineup@3x.jpg 3x"
+                    alt="Bottle Lineup Image" class="retouch-bottle">
+                <div class="group7-container">
+                    <img src="images/Group7.svg" onerror="this.src='images/Group7/Group7.png'"
+                        srcset="images/Group7/Group7@2x.png 2x,
+                                images/Group7/Group7@3x.png 3x"
+                        class="group7-image">     
+                </div>
+            </div>
+            <div class="right-section">
+                <span class="WHERE-IS-MY-HOT-SAUCE">
+                    WHERE IS MY HOT SAUCE?
+                </span>
+                <span class="Due-to-overwhelming-demand">
+                    Due to overwhelming demand we blasted through our first batch of hot sauce in no time. We honestly thought this would last us a little while at least, but we burned through it in a matter of hours. You all really love Hentai and Hot Sauce!!!
+                </span>
+                <span class="NEW-INGREDIENTS">
+                    NEW INGREDIENTS
+                </span>
+                <span class="The-first-batch">
+                    The first batch of hot sauce used a specific kind of fermentation process which would take a very long time to go through again. The original plan was to only release 1 batch of this premium hot sauce, but the demand was so high we have decided to start permanent production and fulfillment.
+                  
+                  This means we have also had to change the receipt slightly to accommodate faster production and fulfillment. The new recipe contains the below ingredients:
+                </span>
+                <div class="Selected-Hot-Peppers-container">
+                    <div class="Line-9"></div>
+                    <span class="Selected-Hot-Peppers">
+                        Selected Hot Peppers, Apple Juice*, Apple Sauce*, Cider vinegar*, Carrots, Onions*, Maple Syrup*, Tomato Paste*, Garlic, Salt, Spices, Xanthan Gum (GMO Free).  *Organic Ingredients
+                    </span>
+                </div>
+                <span class="Dont-worry-this-new-recipe">
+                    Don't worry, this new recipe will still make you say "Fuck me, it's so hot!"
+                </span>
+            </div>
+        </div>
+        
+        
+        <div class="Path-87">
+            <span class="Production-timeline">
+                PRODUCTION TIMELINE
+            </span>
+            <span class="Were-super-excited-to-get-this">
+                We're super excited to get this 100% Canadian made lewd sauce in as many hands, and mouths, as possible, and we know you want it to. So in order to keep everyone as informed as possible please find the most up-to-date production schedule below.
+            </span>
+        </div>
+
+        <div class="tracking-container">
+            <div id="container_rectagle_11" class="Rectangle-11"></div>
+            <div id="traking_bottle" class="traking-bottle">
+                <img src="images/tracking/tracking1/tracking-icons_jpg/tracking-icons.jpg"
+                srcset="images/tracking/tracking1/tracking-icons_png/tracking-icons.png 1x,
+                        images/tracking/tracking1/tracking-icons_png/tracking-icons@2x.png 2x,
+                        images/tracking/tracking1/tracking-icons_png/tracking-icons@3x.png 3x,
+                        images/tracking/tracking1/tracking-icons_jpg/tracking-icons.jpg 1x,
+                        images/tracking/tracking1/tracking-icons_jpg/tracking-icons@2x.jpg 2x,
+                        images/tracking/tracking1/tracking-icons_jpg/tracking-icons@3x.jpg 3x"
+                alt="Tracking Image">
+            </div>
+        </div>
+
+        <div class="Path-88">
+            <span class="THE-SPICY-AS-FUCK">THE SPICY AS FUCK</span>
+            <span class="HENTAI-HOT-SAUCE">HENTAI HOT SAUCE</span>
+            <div class="button-container">
+                <img src="images/buttom.svg" onerror="this.src='images/button/button.png'"
+                    srcset="images/button/button@2x.png 2x,
+                            images/button/button@3x.png 3x"
+                    class="buttom">
+                <span class="button-text PRE-ORDER">PRE-ORDER</span>
+            </div> 
+            <img src="images/nutaku_logo.svg" onerror="this.src='images/nutaku_logo/nutaku_logo.png'"
+                srcset="images/nutaku_logo/nutaku_logo@2x.png 2x,
+                        images/nutaku_logo/nutaku_logo@3x.png 3x"
+                class="nutaku-logo"
+            />
+        </div>
+        
+    </div>
+  </main>
+
+  <script src="scripts.min.js"></script>
+</body>
+</html>
